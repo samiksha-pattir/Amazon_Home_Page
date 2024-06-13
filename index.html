@@ -1,133 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Amazon Homepage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <div class="row top_row1">
-        <div class="col logo">
-            <img src="path_to_logo_image" alt="Amazon Logo">
-        </div>
-        <div class="col location">
-            <img src="path_to_location_icon" class="location_icon" alt="Location Icon">
-            <div class="line_one">Hello</div>
-            <div class="line_two">Select your address</div>
-        </div>
-        <div class="col search">
-            <div class="option">
-                <select>
-                    <option>All</option>
-                    <option>Books</option>
-                    <option>Electronics</option>
-                </select>
-            </div>
-            <div class="search_row">
-                <input type="text" class="search_items" placeholder="Search">
-            </div>
-            <div class="icon">
-                <button type="submit">Search</button>
-            </div>
-        </div>
-        <div class="col lang">
-            <img src="path_to_flag_icon" class="language_img" alt="Language Icon">
-            <select class="choose_lang">
-                <option>EN</option>
-                <option>ES</option>
-            </select>
-        </div>
-        <div class="col sign">
-            <div class="account_and_sign">Hello, Sign in</div>
-            <div>Accounts & Lists</div>
-        </div>
-        <div class="col return">
-            <div class="order_div">Returns</div>
-            <div>& Orders</div>
-        </div>
-        <div class="col cart">
-            <img src="path_to_cart_icon" class="cart_icon" alt="Cart Icon">
-            <div class="cart_div">0</div>
-        </div>
-    </div>
+<html>
+    <head>
+        <title>Amazon.com</title>
+        <link rel="stylesheet" href="style.css"/>        
 
-    <div class="row top_row2">
-        <div class="col all">
-            <div class="menu_div">≡</div>
-            <div class="start">All</div>
-        </div>
-        <div class="col today">Today's Deals</div>
-        <div class="col customer">Customer Service</div>
-        <div class="col registry">Registry</div>
-        <div class="col gift">Gift Cards</div>
-        <div class="col sell">Sell</div>
-        <div class="col deals">Deals</div>
-    </div>
+    </head>
+    <body> 
+        <div class="row top_row1">
+            <div class="col logo">
+                <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png" height=50px width="100%">
+            </div>
+            <div class="col location">
+                <div class="line_one">
+                    <p><span style="color:#cccccc;font-weight:bold; ">Deliver to</span></p>
+                </div>
+                <div class="line_two">
+                    <p><span style="color:#FFFFFF;font-weight:bold;font-size:14px">India</span></p>
+                </div>
+                <div class="location_icon">
+                    <img src="https://i.pinimg.com/originals/8b/72/61/8b7261afc1179fd7b1212062f7deb4ea.jpg" height="100%" width="100%">
+                </div>
+            </div>
 
-    <!-- Main Content Section -->
-    <div class="row row_3">
-        <div class="col">
-            <img src="path_to_banner_image" alt="Banner Image">
-        </div>
-    </div>
-    
-    <div class="row row_between">
-        <div class="col inside_columns">
-            <img src="path_to_product_image1" alt="Product Image 1">
-        </div>
-        <div class="col inside_columns">
-            <img src="path_to_product_image2" alt="Product Image 2">
-        </div>
-        <div class="col inside_columns">
-            <img src="path_to_product_image3" alt="Product Image 3">
-        </div>
-    </div>
 
-    <!-- Footer Section -->
-    <div class="footer">
-        <div class="footer_top_row">
-            <p>Back to top</p>
+            <div class="col search">
+                <div class="search_items option">
+                     <select >
+                        <option value="Mother's">Mother's day</option>
+                        <option value="ALL department">All Department</option>
+                    </select>
+                </div>
+                <div class="search_items search_row">
+                    <input type="text" name="Search" placeholder="Search Amazon"  style="height:100%;width:100%;">
+                </div>
+                <div class="search_items icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6vv2zq18gwYDfMYRMNs_CnItMlYDBkQk6Amo6OmBCGxWjs_hA18lYWSPaIKSgMVAMlM&usqp=CAU" height="100%" width="100%">
+                </div>
+            </div>
+
+
+            <div class="col lang">
+                <div class="language_img">
+                    <img src="https://www.worldatlas.com/r/w768/upload/a7/b5/78/shutterstock-157626554.jpg" height="100%" width="100%">
+                </div>
+                <div class="choose_lang">
+                    <p><span style="color:#FFFFFF;font-weight:bold;font-size:14px">EN</span></p>
+                </div>
+            </div>
+
+            <div class="col sign">
+                <div class="account_and_sign">
+                    <span>Hello, sign in</span><br>  
+                    <span style="font:14px;"><b>Account & Lists<b></span>
+                </div>
+            </div>
+
+            <div class="col return">
+                <div class="order_div">
+                    <span>Returrns</span><br>  
+                    <span style="font:14px"><b>& Orders<b></span>
+                </div>
+            </div>
+            <div class="col cart">
+                <div class="cart_icon">
+                    <img src="https://media.istockphoto.com/id/1181590456/vector/shopping-cart-icon.jpg?s=612x612&w=0&k=20&c=pkuknfgytAxSNWHRlhkFaR0mSUz8em4MQ0FVnIMKCxk=" height="100%" width="100%"/>
+                </div>
+                <div class="cart_div">
+                <span><b>Cart<b></span>
+               </div>
+            </div>
+        </div> 
+
+
+        <div class="row top_row2">
+            <div class="col all">
+                <div class="menu_div"><img src="https://png.pngtree.com/png-vector/20190420/ourlarge/pngtree-menu-vector-icon-png-image_963342.jpg"height="100%"width="100%"></div>
+                <div class="start"><b>All<b></div>
+
+            </div> 
+            <div class="col today">Today's Deals</div>
+            <div class="col customer">Customer Service</div>
+            <div class="col registry">Registry</div>
+            <div class="col gift">Gift Cards</div>
+            <div class="col sell">Sell</div>
+            <div class="col deals">Shop great deals now</div>
         </div>
-        <div class="footer_insid_box">
-            <div class="foot">
-                <ul>
-                    <li>Get to Know Us</li>
-                    <li>Careers</li>
-                    <li>About Amazon</li>
-                    <li>Investor Relations</li>
-                    <li>Amazon Devices</li>
-                </ul>
+
+
+        <div class="row row_3">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/Fuji_LP_header_MD21_en_US.png" height="100%" width="100%">
+        </div>
+        <div class="row_between row_4">
+            <div class=" fourth_row_box_one">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/51ce0zh0SoL.png" height="100%">
             </div>
-            <div class="foot">
-                <ul>
-                    <li>Make Money with Us</li>
-                    <li>Sell on Amazon</li>
-                    <li>Sell Your Services on Amazon</li>
-                    <li>Sell on Amazon Business</li>
-                    <li>Sell Your Apps on Amazon</li>
-                </ul>
+
+            <div class="inside_columns fourth_row_box_two">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/61cU0fj7exL.jpg" height="100%" width="100%">
+            </div> 
+
+            <div class="inside_columns fourth_row_box_three">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/41YGzuFNkYL.jpg" height="100%" width="100%">
             </div>
-            <div class="foot">
-                <ul>
-                    <li>Amazon Payment Products</li>
-                    <li>Amazon Rewards Visa Signature Cards</li>
-                    <li>Amazon.com Store Card</li>
-                    <li>Amazon Business Card</li>
-                    <li>Amazon Business Line of Credit</li>
-                </ul>
-            </div>
-            <div class="foot">
-                <ul>
-                    <li>Let Us Help You</li>
-                    <li>Amazon and COVID-19</li>
-                    <li>Your Account</li>
-                    <li>Your Orders</li>
-                    <li>Shipping Rates & Policies</li>
-                </ul>
+
+            <div class="inside_columns fourth_row_box_four">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/51MMdH0zPfL.jpg" height="100%" width="100%">
             </div>
         </div>
-    </div>
-</body>
-</html>
+
+
+
+        <div class="row_between row_5">
+            <div class="fifth_row_box_one">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/675540184.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns fifth_row_box_two">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/548156077.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns fifth_row_box_three">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/234479416.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns fifth_row_box_four">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/763666195.png" height="100%" width="100%">
+            </div>
+        </div>
+
+
+        <div class="row_between row_6">
+            <div class="sixth_row_box_one">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/495082102.jpg" height="100%" width="100%">
+            </div>
+            <div class="inside_columns sixth_row_box_two">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/1040441149.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns sixth_row_box_three">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/LandingPages/61Rrv-bvdhL.jpg" height="100%" width="100%">
+            </div>
+            <div class="inside_columns sixth_row_box_four">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/LandingPages/71NWRdNUfYL_smartwatch.jpg" height="100%" width="100%">
+            </div>  
+        </div>
+
+        <div class="row_between row_7">
+            <div class=" seventh_row_box_one">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/March/Fuji_Passover_Mixer._CB422563791_.jpg" height="100%" width="100%">
+            </div>
+            <div class="inside_columns seventh_row_box_two">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/489420001.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns seventh_row_box_three">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/41XVTbwV0L-2.png" height="100%" width="100%">
+            </div>
+            <div class="inside_columns seventh_row_box_four">
+                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/51LX-jfe7WL.jpg" height="100%" width="100%">
+            </div>
+        </div>
+
+        <div class="row row_8">
+           <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2022/MothersDay/LP_ShopDeals_v2_en.jpg" height="100%" width="100%">
+        </div>
+
+
+        <div class="row footer_top_row">Back to top</div>
+        <div class="row footer">
+            <div class="row footer_insid_box">
+                <div class="foot footer_box_one">
+                    <ul type="none">
+                        <li style="font:16px sans-serif; font-weight:bold">Get to Know Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+
+
+                <div class="foot footer_box_two">
+                    <ul type="none">
+                        <li style="font:16px sans-serif; font-weight:bold">Make Money with Us</li>
+                        <li>Sell products on Amazon</li>
+                        <li>Sell on Amazon Business</li>
+                        <li>Sell apps on Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Advertise Your Products</li>
+                        <li>Self-Publish with Us</li>
+                        <li>Host an Amazon Hub</li>
+                        <li>See More Make Money with Us</li>
+                    </ul>
+                </div>
+
+
+                <div class="foot footer_box_three">
+                    <ul type="none">
+                        <li style="font:16px sans-serif; font-weight:bold">Amazon Payment Products</li>
+                        <li>Amazon Business Card</li>
+                        <li>Shop with Points</li>
+                        <li>Reload Your Balance</li>
+                        <li>Amazon Currency Converter</li> 
+                    </ul>
+                </div>
+
+                <div class="foot footer_box_four">
+                    <ul type="none">
+                        <li style="font:16px sans-serif; font-weight:bold">Let Us Help You</li>
+                        <li>Amazon and COVID-19</li>
+                        <li>Your Account</li>
+                        <li>Your Orders</li>
+                        <li>Shipping Rates & Policies</li>
+                        <li>Returns & Replacements</li>
+                        <li>Manage Your Content and Devices</li>
+                        <li>Amazon Assistant</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    <body>
+<html>
